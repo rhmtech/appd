@@ -13,7 +13,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/", indexHandler)
+	// http.HandleFunc("/", indexHandler)
 
 	port := os.Getenv("PORT")
 	if port == "" {
